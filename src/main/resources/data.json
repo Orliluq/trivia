@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Is this a new question?",
+    "answer": "New answer",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the word Halloween mean?",
+    "answer": "All Saints' Eve",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the origin of the carved pumpkin at Halloween?",
+    "answer": "Legend of Jack-o'-lantern",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What mythical creature transforms into a wolf during a full moon?",
+    "answer": "Werewolf",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What plant protects homes from evil spirits?",
+    "answer": "Rue",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the origin of dressing up on Halloween?",
+    "answer": "To scare away evil spirits",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which country did the celebration of Halloween originate?",
+    "answer": "Ireland",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the Celtic festival that gave rise to Halloween called?",
+    "answer": "Samhain",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What popular Halloween figure is associated with black cats?",
+    "answer": "Witches",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the relationship between Halloween and the Day of the Dead?",
+    "answer": "Both celebrate the dead, but in different cultures",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What supernatural being is said to emerge from its grave on Halloween?",
+    "answer": "Zombie",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Is this a new question?",
+    "answer": "New answer",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Is Bigfoot a giant?",
+    "answer": "It's a giant monster",
+    "difficulty": "hard"
+  }
+]

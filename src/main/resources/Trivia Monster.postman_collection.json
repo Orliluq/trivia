@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "b5df6a28-7f75-47e2-80ce-e750746e9ea2",
+		"name": "Trivia Monster",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28075095"
+	},
+	"item": [
+		{
+			"name": "List all questions",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}questions",
+					"host": [
+						"{{url}}questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a new question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"Which creature is often portrayed as a reanimated corpse that craves human flesh?\",\r\n    \"answer\": \"Zombie\",\r\n    \"difficulty\": \"easy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}questions",
+					"host": [
+						"{{url}}questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a question by ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"Which creature is often portrayed as a reanimated corpse that craves human flesh?\",\r\n    \"answer\": \"Zombie\",\r\n    \"difficulty\": \"easy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}questions/1",
+					"host": [
+						"{{url}}questions"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get random questions by difficulty level (easy, medium, or hard)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}questions/random/medium",
+					"host": [
+						"{{url}}questions"
+					],
+					"path": [
+						"random",
+						"medium"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "monster123",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "monster",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "{{url}}",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "Authorization",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "Content-Type",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
