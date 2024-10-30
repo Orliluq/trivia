@@ -8,12 +8,16 @@
 ![Swagger](https://img.shields.io/badge/documented%20with-Swagger-orange.svg)
 
 ## 👻 **Theme:** Create an API for a Halloween trivia game!
+<p align="center">
+    <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70729&width=435&lines=Trick+or+treat+code!+%F0%9F%91%BB;The+creepiest+API+%F0%9F%8E%83"/></a><br>
+</p>
 
-## Description
+## Description 🧛‍♂️
 
 This project involves developing a RESTful API in Java that serves as a trivia game centered around Halloween. The API manages questions and answers related to myths and legends of Halloween.
 
-## Requirements
+## Requirements 🕸️
 
 - Implement endpoints to:
   - Add questions
@@ -23,7 +27,7 @@ This project involves developing a RESTful API in Java that serves as a trivia g
 - Users should be able to retrieve a list of random questions for each difficulty level.
 - Document the API using Swagger or OpenAPI.
 
-## Endpoints
+## Endpoints ⚰️
 
 Here are the available endpoints in the API:
 
@@ -59,7 +63,7 @@ Here are the available endpoints in the API:
    - **Endpoint:** `GET /questions/random/{difficulty}`
    - **Description:** Retrieves a list of random questions based on the specified difficulty level (easy, medium, hard).
 
-## Technologies Used
+## Technologies Used 🦇
 
 - Java
 - Spring Boot
@@ -69,7 +73,7 @@ Here are the available endpoints in the API:
 
 ![swagger](https://github.com/user-attachments/assets/2aa26024-edfa-49df-9389-41435a823b4b)
 
-## Setup Instructions
+## Setup Instructions 💀
 
 1. Clone this repository:
 ```bash
@@ -92,9 +96,9 @@ Here are the available endpoints in the API:
    `http://localhost:8080/swagger-ui.html` 
 ```
 
-## License
+## License 🎃
 This project is licensed under the MIT License.
 
-## Contributing
+## Contributing 😱
 Feel free to submit issues or pull requests if you want to contribute to this project!
 
